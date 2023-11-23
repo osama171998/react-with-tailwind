@@ -1,8 +1,9 @@
-import {Navbar} from "./components/exports"
+import {Navbar,Team} from "./components/exports"
 function App() {
   return (
     <div className="App">
-      <Navbar items={["Home","About Us","Testimonials","Blogs"]}/>
+      <Navbar/>
+      <Team/>
     </div>
   );
 }
